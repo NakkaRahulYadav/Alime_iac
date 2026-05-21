@@ -2,12 +2,12 @@ resource "azurerm_resource_group" "rg" {
   name     = "rg-alime-spoke-dev-cindia-001"
   location = "Australia Central"
   tags = {
-    Owner      = "devops"
-      Project    = "alime"
-      CostCenter = "IT"
-      Environment = "dev"
-      ManagedBy   = "Console"    
-      Compliance  = "CAF"
+    Owner       = "devops"
+    Project     = "alime"
+    CostCenter  = "IT"
+    Environment = "dev"
+    ManagedBy   = "Console"
+    Compliance  = "CAF"
   }
 }
 
@@ -15,11 +15,11 @@ resource "azurerm_resource_group" "rg" {
   name     = "rg-alime-hub-dev-cindia-001"
   location = "Australia Central"
   tags = {
-    Owner      = "devops"
-      Project    = "alime"
-      CostCenter = "IT"
-      Environment = "dev"
-      ManagedBy   = "Console"    
-      Compliance  = "CAF"
+    Owner       = "devops"
+    Project     = "alime"
+    CostCenter  = "IT"
+    Environment = "dev"
+    ManagedBy   = "Console"
+    Compliance  = "CAF"
   }
 }
