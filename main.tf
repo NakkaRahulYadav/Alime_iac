@@ -1,4 +1,4 @@
-resource "azurerm_resource_group" "rg" {
+resource "azurerm_resource_group" "hub-rg" {
   name     = "rg-alime-spoke-dev-cindia-001"
   location = "Australia Central"
   tags = {
@@ -11,7 +11,7 @@ resource "azurerm_resource_group" "rg" {
   }
 }
 
-resource "azurerm_resource_group" "rg" {
+resource "azurerm_resource_group" "spoke-rg" {
   name     = "rg-alime-hub-dev-cindia-001"
   location = "Australia Central"
   tags = {
